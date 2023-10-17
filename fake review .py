@@ -4,7 +4,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score, classification_report
 
-# Sample dataset (replace with your own data)
 data = [
     ("This product is amazing!", 1),      # Genuine review (1)
     ("Terrible product. Do not buy.", 0),  # Fake review (0)
